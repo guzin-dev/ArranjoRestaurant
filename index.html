@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arranjo com comida</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Restaurante 🥔🥓</h1>
+  <p>Separe seus pratos com vírgula</p>
+  <label for="principal">Escolha a quantidade de opções para pratos principais</label>
+  <input id="1" name="principal" type="text" placeholder="Frango Grelhado, Massa ao pesto...">
+  <label for="secondary">Escolha a quantidade de opções para acompanhamentos</label>
+  <input id="2" name="secondary" type="text" placeholder="Arroz, Feijão...">
+  <label for="dessert">Escolha a quantidade de opções para sobremesas</label>
+  <input id="3" name="dessert" type="text" placeholder="Gelatina, mousse...">
+  <button onclick="calcularPratos()">Calcular possibilidades</button>
+  <h2 id="result"></h2>
+  <div class="listHandler">
+    <p id="list"></p>
+  </div>
+</body>
+
+</html>
